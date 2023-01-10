@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="700"
+   height="200"
+   viewBox="0 0 185.20833 52.916667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="portal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.9974614"
+     inkscape:cx="198.00088"
+     inkscape:cy="107.09062"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="293.46193"
+       y="-0.47180375"
+       width="409.99746"
+       height="198.62938"
+       id="rect430" />
+    <rect
+       x="323.48474"
+       y="106.44583"
+       width="312.42543"
+       height="39.398782"
+       id="rect420" />
+    <rect
+       x="324.17594"
+       y="80.179978"
+       width="351.82421"
+       height="88.474458"
+       id="rect248" />
+    <rect
+       x="321.41112"
+       y="73.267911"
+       width="327.63198"
+       height="102.29859"
+       id="rect242" />
+    <rect
+       x="322.10232"
+       y="26.957061"
+       width="344.22094"
+       height="49.075676"
+       id="rect236" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.42073587,0,0,0.42073587,-54.275491,-5.1872747)"
+       id="text234"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect236);fill:#0088aa;fill-opacity:1;stroke:none"><tspan
+         x="322.10156"
+         y="63.450244"
+         id="tspan680">Universidad</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text240"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect242)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text246"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect248);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#0088aa;stroke-width:0.264583"
+       x="82.15303"
+       y="31.613615"
+       id="text308"><tspan
+         sodipodi:role="line"
+         id="tspan306"
+         style="fill:#0088aa;stroke-width:0.264583"
+         x="82.15303"
+         y="31.613615">Ciencias Médicas </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-3.0698758,5.6444033)"
+       id="text418"
+       style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect420);fill:#0088aa"><tspan
+         x="323.48438"
+         y="135.63988"
+         id="tspan682">de la Habana</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="192.57376"
+       y="55.11594"
+       id="text426"><tspan
+         sodipodi:role="line"
+         id="tspan424"
+         style="stroke-width:0.264583"
+         x="192.57376"
+         y="55.11594"> </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text428"
+       style="line-height:1.25;font-family:sans-serif;font-size:32px;white-space:pre;shape-inside:url(#rect430)" />
+  </g>
+</svg>
