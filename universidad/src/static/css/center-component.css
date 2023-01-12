@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 .article-container {
-  width: 100%;
   height: auto;
   color: #000;
   border: 1px #000 solid;
@@ -11,7 +10,6 @@
 }
 @media screen and (max-width: 700px) {
   .article-container {
-    width: 73%;
     margin: 10px 80px;
   }
 }
@@ -26,4 +24,16 @@
 }
 .article-container .interior .container-images {
   padding: 15px;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.article-container .interior .container-images img {
+  padding: 4px;
+}
+@media screen and (max-width: 700px) {
+  .article-container .interior .container-images img {
+    width: 30%;
+  }
 }/*# sourceMappingURL=center-component.css.map */
