@@ -3,7 +3,7 @@ export const RightComponent=(props)=>{
     return (
         <div className='right-container'>
             <h1 className='display-3'>{props.title}</h1>
-            <p>{props.body}</p>
+            {props.lista.map((element,i)=>(<p key={i}>{element}<hr/></p>))}
         </div>
     )
 }
