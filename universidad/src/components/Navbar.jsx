@@ -1,12 +1,13 @@
 import '../static/css/Navbar.css'
+import { NavLink } from 'react-router-dom';
 export const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to='/'>
             Inicio
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,9 +23,9 @@ export const Navbar = () => {
             <div className="lista">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <NavLink className="nav-link active" aria-current="page" to='/facultades'>
                     Facultades
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">

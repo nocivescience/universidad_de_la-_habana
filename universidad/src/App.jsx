@@ -1,14 +1,21 @@
+import './static/css/App.css'
 import { useState } from 'react'
 import {Navbar} from './components/Navbar'
 import {Header} from './components/Header'
-import './static/css/App.css'
 import { Cuerpo } from './components/Cuerpo'
+import { Facultades } from './pages/Facultades'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className='container-universal'>
-      <Navbar></Navbar>
-      <Header></Header>
-      <Cuerpo></Cuerpo>
+      <BrowserRouter>
+        <Navbar></Navbar>
+        <Header></Header>
+        <Routes>
+          <Route path='/' element={<Cuerpo></Cuerpo>}></Route>
+          <Route path='/facultades' element={<Facultades></Facultades>}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
