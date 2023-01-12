@@ -1,6 +1,9 @@
 import '../static/css/RightComponent.css'
-export const RightComponent=()=>{
+export const RightComponent=(props)=>{
     return (
-        <div></div>
+        <div className='right-container'>
+            <h1 className='display-3'>{props.title}</h1>
+            <p>{props.body}</p>
+        </div>
     )
 }
