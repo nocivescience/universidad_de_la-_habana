@@ -4,7 +4,7 @@ export const CenterComponent=(props)=>{
         <div className='article-container'>
             <div className='interior'>
                 <div className='container-images'>
-                    {props.imagenes.map(imagen=>(<img src={imagen}></img>))}
+                    {props.imagenes.map((imagen,i)=>(<img key={i} src={imagen}></img>))}
                 </div>
                 <div className='textos'>
                     <h2 className='title display-6'>{props.title}</h2>
