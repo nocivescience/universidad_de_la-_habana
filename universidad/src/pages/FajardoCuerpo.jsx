@@ -5,6 +5,7 @@ import GrupoDePersonas from '../assets/grupo-de-personas.jpg'
 import Barco from '../assets/barco.jpg'
 import PersonasParadas from '../assets/personas-paradas.jpg'
 import MedicosDePie from '../assets/medicos-de-pie.jpg'
+import '../static/css/Fajardo.css'
 export const FajardoCuerpo=()=>{
     const cuerpos=[
         [
@@ -35,14 +36,14 @@ export const FajardoCuerpo=()=>{
     ]
     return (
         <div>
-            {cuerpos.map((cuerpo,i)=>{
+            {cuerpos.map((cuerpo,i)=>(
                 <CenterComponent
                     key={i}
-                    imagenes={[]}
-                    title='hola mundo'
-                    parrafo='adios'
+                    imagenes={cuerpo[0]}
+                    title={cuerpo[1]}
+                    parrafo={cuerpo[2]}
                 ></CenterComponent>
-            })}
+            ))}
         </div>
     )
 }

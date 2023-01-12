@@ -18,7 +18,7 @@ export const Facultades = () => {
   const enlaces=[
     '/facultades/calixto',
     '/facultades/fajardo',
-    '#',
+    '/facultades/allende',
     '#',
     '#',
     '#',
