@@ -6,6 +6,7 @@ import { Cuerpo } from './components/Cuerpo'
 import { Facultades } from './pages/Facultades'
 import {CalixtoCuerpo} from './pages/CalixtoCuerpo'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { FajardoCuerpo } from './pages/FajardoCuerpo'
 function App() {
   return (
     <div className='container-universal'>
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Cuerpo></Cuerpo>}></Route>
           <Route path='/facultades' element={<Facultades></Facultades>}></Route>
           <Route path='/facultades/calixto' element={<CalixtoCuerpo></CalixtoCuerpo>}></Route>
+          <Route path='/facultades/fajardo' element={<FajardoCuerpo></FajardoCuerpo>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
