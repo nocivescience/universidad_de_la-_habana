@@ -8,6 +8,9 @@ import {CalixtoCuerpo} from './pages/CalixtoCuerpo'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { FajardoCuerpo } from './pages/FajardoCuerpo'
 import { AllendeCuerpo } from './pages/AllendeCuerpo'
+import { ExpoCuba } from './pages/ExpoCuba'
+import { PalacioPioneros } from './pages/PalacioPioneros'
+import { Ctc } from './pages/Ctc'
 function App() {
   return (
     <div className='container-universal'>
@@ -20,6 +23,9 @@ function App() {
           <Route path='/facultades/calixto' element={<CalixtoCuerpo></CalixtoCuerpo>}></Route>
           <Route path='/facultades/fajardo' element={<FajardoCuerpo></FajardoCuerpo>}></Route>
           <Route path='/facultades/allende' element={<AllendeCuerpo></AllendeCuerpo>}></Route>
+          <Route path='/expocuba' element={<ExpoCuba></ExpoCuba>}></Route>
+          <Route path='/palaciopioneros' element={<PalacioPioneros></PalacioPioneros>}></Route>
+          <Route path='/ctc' element={<Ctc></Ctc>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

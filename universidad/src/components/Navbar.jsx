@@ -5,7 +5,7 @@ export const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to='/'>
+          <NavLink className="navbar-brand navegador" to='/'>
             Inicio
           </NavLink>
           <button
@@ -23,24 +23,24 @@ export const Navbar = () => {
             <div className="lista">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <NavLink className="nav-link active" aria-current="page" to='/facultades'>
+                  <NavLink className="nav-link active navegador" aria-current="page" to='/facultades'>
                     Facultades
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink className="nav-link navegador" to="/expocuba">
                     ExpoCuba
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink className="nav-link navegador" to="palaciopioneros">
                     Palacio
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Fec
-                  </a>
+                  <NavLink className="nav-link navegador" to="/ctc">
+                    CTC
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">

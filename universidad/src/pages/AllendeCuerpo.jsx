@@ -1,4 +1,4 @@
-import { Campus } from '../components/CAmpus'
+import { Campus } from '../components/Campus'
 import CoronavirusCuba from '../assets/coronavirus-cuba.jpeg'
 import MedicosEnJardin from '../assets/medicos-en-jardin.jpg'
 import PersonasCelebrando from '../assets/personas-celebrando.jpg'
@@ -59,7 +59,7 @@ export const AllendeCuerpo=()=>{
         ]
     ]
     return (
-        <div>
+        <div className='allende-container'>
             {descripciones.map((descripcion,i)=>(
                 <Campus
                     key={i}

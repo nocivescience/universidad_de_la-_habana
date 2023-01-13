@@ -2,4 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.lista .navegador:hover {
+  background-color: red;
+  border-radius: 5px;
 }/*# sourceMappingURL=Navbar.css.map */
